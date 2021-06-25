@@ -1,0 +1,168 @@
+@font-face {
+  src: url(Font/ka1.ttf);
+  font-family: ka1;
+}
+
+@font-face {
+  src: url(Font/good\ times\ rg.ttf);
+  font-family: "Goodtimes";
+}
+
+body {
+  background-image: url(gallery/gallerybg.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+.neon-text7 {
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0%;
+  padding: 0 20px;
+  font-family: "Goodtimes";
+  font-size: 2.5em;
+  color: #fff;
+  text-shadow: 0 0 20px #eb4e1e;
+}
+
+.neon-text7:after {
+  content: attr(data-text7);
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  padding: 0 20px;
+  z-index: -1;
+  color: #ec3801;
+  filter: blur(15px);
+}
+
+.neon-text7:before {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background: #ec3801;
+  z-index: -2;
+  opacity: 0.5;
+  filter: blur(40px);
+}
+
+.home-button {
+  position: absolute;
+  top: 12%;
+  left: 5%;
+  padding: 0%;
+  margin: 0%;
+  transform: translate(-50%, -50%);
+}
+
+.neon-text6 {
+  position: absolute;
+  top: 22%;
+  left: 5%;
+  transform: translate(-50%, -50%);
+  margin: 0%;
+  padding: 0 20px;
+  font-family: "ka1";
+  font-size: 1em;
+  color: #fff;
+  text-shadow: 0 0 20px #20e2e6;
+}
+
+.neon-text6:after {
+  content: attr(data-text6);
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  padding: 0 20px;
+  z-index: -1;
+  color: #023788;
+  filter: blur(15px);
+}
+
+.neon-text6:before {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background: #023788;
+  z-index: -2;
+  opacity: 0.5;
+  filter: blur(40px);
+}
+
+.gallery-1 {
+  height: 300px;
+  width: 300px;
+  border-radius: 20px;
+  border: 3px solid #70004f;
+}
+
+.gallery-2 {
+  height: 300px;
+  width: 300px;
+  border-radius: 20px;
+  border: 3px solid #70004f;
+}
+
+.gallery-3 {
+  height: 300px;
+  width: 300px;
+  border-radius: 20px;
+  border: 3px solid #70004f;
+}
+
+.gallery-4 {
+  height: 300px;
+  width: 300px;
+  border-radius: 20px;
+  border: 3px solid #70004f;
+}
+
+.gallery-5 {
+  height: 300px;
+  width: 300px;
+  border-radius: 20px;
+  border: 3px solid c#70004f;
+}
+
+.gallery-6 {
+  height: 300px;
+  width: 300px;
+  border-radius: 20px;
+  border: 3px solid #70004f;
+}
+
+.gallery-7 {
+  height: 300px;
+  width: 300px;
+  border-radius: 20px;
+  border: 3px solid #70004f;
+}
+
+.gallery-8 {
+  height: 300px;
+  width: 300px;
+  border-radius: 20px;
+  border: 3px solid #70004f;
+}
+
+.gallery-9 {
+  height: 300px;
+  width: 300px;
+  border-radius: 20px;
+  border: 3px solid #70004f;
+}
+
+.gallery-10 {
+  height: 300px;
+  width: 300px;
+  border-radius: 20px;
+  border: 3px solid c#70004f;
+}

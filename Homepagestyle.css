@@ -1,0 +1,185 @@
+
+@font-face {
+  src: url(Font/good\ times\ rg.ttf);
+  font-family: Goodtimes;
+}
+
+@font-face {
+  src: url(Font/ka1.ttf);
+  font-family: ka1;
+}
+
+body {
+  background-image: url(images/homepage.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  margin: 0%;
+  padding: 0%;
+}
+.header {
+  height: 100vh;
+}
+
+
+.logo1 {
+  position: absolute;
+  margin: 10px;
+  height: 70px;
+  top: 0%;
+  left: 5%;
+}
+.logo2 {
+  position: absolute;
+  margin: 10px;
+  height: 70px;
+  top: 0%;
+}
+
+.creator {
+  position: absolute;
+  bottom: 0%;
+  left: 13%;
+  transform: translate(-50%, -50%);
+  margin: 0%;
+  padding: 0 20px;
+  font-family: "Goodtimes";
+  font-size: 0.8em;
+  color: #fff;
+  text-shadow: 0 0 20px #20e2e6;
+}
+
+.creator:after {
+  content: attr(data-creator);
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  padding: 0 20px;
+  z-index: -1;
+  color: #023788;
+  filter: blur(15px);
+}
+
+.creator:before {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background: #023788;
+  z-index: -2;
+  opacity: 0.5;
+  filter: blur(40px);
+}
+
+.neon-text5 {
+  position: absolute;
+  top: 43%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0%;
+  padding: 0 20px;
+  font-family: "Goodtimes";
+  font-size: 4em;
+  color: #fff;
+  text-shadow: 0 0 20px #eeaf9d;
+}
+
+.neon-text5:after {
+  content: attr(data-text5);
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  padding: 0 20px;
+  z-index: -1;
+  color: #e15546;
+  filter: blur(15px);
+}
+
+.neon-text5:before {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background: #e15546;
+  z-index: -2;
+  opacity: 0.5;
+  filter: blur(40px);
+}
+
+.btn {
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0%;
+  padding: 0 20px;
+  font-family: "ka1";
+  font-size: 1.5em;
+  color: #fff;
+  text-shadow: 0 0 15px #20e2e6;
+}
+
+.btn:after {
+  content: attr(data-textbtn);
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  padding: 0 20px;
+  z-index: -1;
+  color: #023788;
+  filter: blur(15px);
+}
+
+.btn:before {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background: #023788;
+  z-index: -2;
+  opacity: 0.5;
+  filter: blur(40px);
+}
+
+.calendar {
+  position: absolute;
+  top: 6%;
+  right: -5%;
+  transform: translate(-50%, -50%);
+  margin: 0%;
+  padding: 0 20px;
+  font-family: "Goodtimes";
+  font-size: 1em;
+  color: #fff;
+  text-shadow: 0 0 15px #eeaf9d;
+  text-decoration: none;
+}
+
+.calendar:after {
+  content: attr(data-textcl);
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  padding: 0 20px;
+  z-index: -1;
+  color: #e15546;
+  filter: blur(15px);
+}
+
+.calendar:before {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background: #e15546;
+  z-index: -2;
+  opacity: 0.5;
+  filter: blur(40px);
+}

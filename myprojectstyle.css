@@ -1,0 +1,243 @@
+@font-face {
+  src: url(/Font/ka1.ttf);
+  font-family: "ka1";
+}
+@font-face {
+  src: url(font/good\ times\ rg.ttf);
+  font-family: "Goodtimes";
+}
+
+body {
+  background-image: url(images/educationbg.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+.home-button {
+  position: absolute;
+  top: 12%;
+  left: 5%;
+  padding: 0%;
+  margin: 0%;
+  transform: translate(-50%, -50%);
+}
+
+.neon-text8 {
+  position: absolute;
+  top: 22%;
+  left: 5%;
+  transform: translate(-50%, -50%);
+  margin: 0%;
+  padding: 0 20px;
+  font-family: "ka1";
+  font-size: 1em;
+  color: #fff;
+  text-shadow: 0 0 20px #20e2e6;
+}
+
+.neon-text8:after {
+  content: attr(data-text8);
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  padding: 0 20px;
+  z-index: -1;
+  color: #023788;
+  filter: blur(15px);
+}
+
+.neon-text8:before {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background: #023788;
+  z-index: -2;
+  opacity: 0.5;
+  filter: blur(40px);
+}
+
+.myproject-text {
+  position: absolute;
+  top: 13%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0%;
+  padding: 0 20px;
+  font-family: "Goodtimes";
+  font-size: 2.5em;
+  color: #fff;
+  text-shadow: 0 0 20px #eb4e1e;
+}
+
+.myproject-text:after {
+  content: attr(data-text7);
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  padding: 0 20px;
+  z-index: -1;
+  color: #ec3801;
+  filter: blur(15px);
+}
+
+.myproject-text:before {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background: #ec3801;
+  z-index: -2;
+  opacity: 0.5;
+  filter: blur(40px);
+}
+
+.base-text1 {
+  position: relative;
+  width: 1000px;
+  top: 10em;
+  left: 11.4%;
+  margin: 0%;
+  padding: 0 10px;
+  border: 2px solid #a86dde00;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  background: #a86dde69;
+}
+
+.text1 {
+  margin: 1%;
+  padding: 0 10px;
+  font-family: "Goodtimes";
+  color: #fff;
+  font-size: 0.8em;
+  text-shadow: 0 0 20px #eeaf9d;
+}
+
+.text1:after {
+  content: attr();
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  padding: 0 20px;
+  z-index: -1;
+  color: #e15546;
+  filter: blur(15px);
+}
+
+.text1:before {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background: #e15546;
+  z-index: -2;
+  opacity: 0.5;
+  filter: blur(15px);
+}
+
+.base-text2 {
+  position: relative;
+  width: 1000px;
+  top: 83.4em;
+  left: 11.4%;
+  margin: 0%;
+  padding: 0 10px;
+  border: 2px solid #a86dde00;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  background: #a86dde69;
+}
+
+.text2 {
+  margin: 1%;
+  padding: 0 10px;
+  font-family: "Goodtimes";
+  color: #fff;
+  font-size: 0.8em;
+  text-shadow: 0 0 20px #eeaf9d;
+}
+
+.text2:after {
+  content: attr();
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  padding: 0 20px;
+  z-index: -1;
+  color: #e15546;
+  filter: blur(15px);
+}
+
+.text2:before {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background: #e15546;
+  z-index: -2;
+  opacity: 0.5;
+  filter: blur(15px);
+}
+
+.base-image {
+  position: absolute;
+  top: 75%;
+  padding: 0.5%;
+  background: rgba(238, 130, 238, 0.4);
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  border-radius: 30px;
+}
+
+.homepagepic {
+  width: 650px;
+  border-radius: 30px;
+}
+
+.menupic {
+  width: 650px;
+  border-radius: 30px;
+}
+
+.gallerypic {
+  width: 650px;
+  border-radius: 30px;
+}
+
+.aboutpic {
+  width: 650px;
+  border-radius: 30px;
+}
+
+.educationpic {
+  width: 650px;
+  border-radius: 30px;
+}
+
+.myprojectpic {
+  width: 650px;
+  border-radius: 30px;
+}
+
+.calendarpic {
+  position: absolute;
+  top: 113em;
+  left: 24%;
+  width: 650px;
+  padding: 0.5%;
+  background: rgba(238, 130, 238, 0.4);
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  border-radius: 30px;
+}

@@ -1,0 +1,1050 @@
+@font-face {
+  src: url(font/good\ times\ rg.ttf);
+  font-family: "Goodtimes";
+}
+
+@font-face {
+  src: url(font/ka1.ttf);
+  font-family: "ka1";
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  user-select: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(images/newbgmenu.png);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+.january {
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 350px;
+  height: 350px;
+  padding: 0.2rem;
+  border-radius: 0.6rem;
+  position: absolute;
+  top: 40%;
+  left: 9.5%;
+  box-shadow: 2px 0.5px 10px #111;
+}
+
+.week1 {
+  letter-spacing: 0.025rem;
+  font-size: 1.1rem;
+}
+
+.day1 {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Goodtimes";
+  font-size: 1rem;
+}
+
+.day1:hover {
+  background-color: rgba(0, 0, 0, 0.288);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.febuary {
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 350px;
+  height: 350px;
+  padding: 0.2rem;
+  padding-bottom: 52.9px;
+  border-radius: 0.6rem;
+  position: absolute;
+  top: 40%;
+  left: 36.3%;
+  box-shadow: 2px 0.5px 10px #111;
+}
+
+.week2 {
+  height: 55.2px;
+  letter-spacing: 0.025rem;
+  font-size: 1.1rem;
+}
+
+.day2 {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Goodtimes";
+  font-size: 1rem;
+}
+
+.day2:hover {
+  background-color: rgba(0, 0, 0, 0.288);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.march {
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 350px;
+  height: 350px;
+  padding: 0.2rem;
+  padding-bottom: 52.9px;
+  border-radius: 0.6rem;
+  position: absolute;
+  top: 40%;
+  left: 63.1%;
+  box-shadow: 2px 0.5px 10px #111;
+}
+
+.week3 {
+  letter-spacing: 0.025rem;
+  font-size: 1.1rem;
+}
+
+.day3 {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Goodtimes";
+  font-size: 1rem;
+}
+
+.day3:hover {
+  background-color: rgba(0, 0, 0, 0.288);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.april {
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 350px;
+  height: 350px;
+  padding: 0.2rem;
+  border-radius: 0.6rem;
+  position: absolute;
+  top: 120%;
+  left: 9.5%;
+  box-shadow: 2px 0.5px 10px #111;
+}
+
+.week4 {
+  letter-spacing: 0.025rem;
+  font-size: 1.1rem;
+}
+
+.day4 {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Goodtimes";
+  font-size: 1rem;
+}
+
+.day4:hover {
+  background-color: rgba(0, 0, 0, 0.288);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.may {
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 350px;
+  height: 350px;
+  padding: 0.2rem;
+  border-radius: 0.6rem;
+  position: absolute;
+  top: 120%;
+  left: 36.3%;
+  box-shadow: 2px 0.5px 10px #111;
+}
+
+.week5 {
+  letter-spacing: 0.025rem;
+  font-size: 1.1rem;
+}
+
+.day5 {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Goodtimes";
+  font-size: 1rem;
+}
+
+.day5:hover {
+  background-color: rgba(0, 0, 0, 0.288);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.june {
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 350px;
+  height: 350px;
+  padding: 0.2rem;
+  border-radius: 0.6rem;
+  position: absolute;
+  top: 120%;
+  left: 63.1%;
+  box-shadow: 2px 0.5px 10px #111;
+}
+
+.week6 {
+  height: 60.2px;
+  letter-spacing: 0.025rem;
+  font-size: 1.1rem;
+}
+
+.day6 {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Goodtimes";
+  font-size: 1rem;
+}
+
+.day6:hover {
+  background-color: rgba(0, 0, 0, 0.288);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.july {
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 350px;
+  height: 350px;
+  padding: 0.2rem;
+  border-radius: 0.6rem;
+  position: absolute;
+  top: 200%;
+  left: 9.5%;
+  box-shadow: 2px 0.5px 10px #111;
+}
+
+.week7 {
+  letter-spacing: 0.025rem;
+  font-size: 1.1rem;
+}
+
+.day7 {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Goodtimes";
+  font-size: 1rem;
+}
+
+.day7:hover {
+  background-color: rgba(0, 0, 0, 0.288);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.august {
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 350px;
+  height: 350px;
+  padding: 0.2rem;
+  border-radius: 0.6rem;
+  position: absolute;
+  top: 200%;
+  left: 36.3%;
+  box-shadow: 2px 0.5px 10px #111;
+}
+
+.week8 {
+  letter-spacing: 0.025rem;
+  font-size: 1.1rem;
+}
+
+.day8 {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Goodtimes";
+  font-size: 1rem;
+}
+
+.day8:hover {
+  background-color: rgba(0, 0, 0, 0.288);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.september {
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 350px;
+  height: 350px;
+  padding: 0.2rem;
+  border-radius: 0.6rem;
+  position: absolute;
+  top: 200%;
+  left: 63.1%;
+  box-shadow: 2px 0.5px 10px #111;
+}
+
+.week9 {
+  height: 60.2px;
+  letter-spacing: 0.025rem;
+  font-size: 1.1rem;
+}
+
+.day9 {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Goodtimes";
+  font-size: 1rem;
+}
+
+.day9:hover {
+  background-color: rgba(0, 0, 0, 0.288);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.october {
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 350px;
+  height: 350px;
+  padding: 0.2rem;
+  border-radius: 0.6rem;
+  position: absolute;
+  top: 280%;
+  left: 9.5%;
+  box-shadow: 2px 0.5px 10px #111;
+}
+
+.week10 {
+  letter-spacing: 0.025rem;
+  font-size: 1.1rem;
+}
+
+.day10 {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Goodtimes";
+  font-size: 1rem;
+}
+
+.day10:hover {
+  background-color: rgba(0, 0, 0, 0.288);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.november {
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 350px;
+  height: 350px;
+  padding: 0.2rem;
+  border-radius: 0.6rem;
+  position: absolute;
+  top: 280%;
+  left: 36.3%;
+  box-shadow: 2px 0.5px 10px #111;
+}
+
+.week11 {
+  letter-spacing: 0.025rem;
+  font-size: 1.1rem;
+}
+
+.day11 {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Goodtimes";
+  font-size: 1rem;
+}
+
+.day11:hover {
+  background-color: rgba(0, 0, 0, 0.288);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.december {
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 350px;
+  height: 350px;
+  padding: 0.2rem;
+  border-radius: 0.6rem;
+  position: absolute;
+  top: 280%;
+  left: 63.1%;
+  box-shadow: 2px 0.5px 10px #111;
+}
+
+.week12 {
+  height: 60.2px;
+  letter-spacing: 0.025rem;
+  font-size: 1.1rem;
+}
+
+.day12 {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Goodtimes";
+  font-size: 1rem;
+}
+
+.day12:hover {
+  background-color: rgba(0, 0, 0, 0.288);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.calendar-text1 {
+  position: absolute;
+  top: 5%;
+  left: 35.5%;
+  margin: 0%;
+  padding: 0 20px;
+  font-family: "Goodtimes";
+  color: #fff;
+  font-size: 2.5em;
+  text-shadow: 0 0 20px #eeaf9d;
+}
+
+.calendar-text1:after {
+  content: attr(data-calendar1);
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  padding: 0 20px;
+  z-index: -1;
+  color: #e15546;
+  filter: blur(15px);
+}
+
+.calendar-text1:before {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background: #e15546;
+  z-index: -2;
+  opacity: 0.5;
+  filter: blur(40px);
+}
+
+.year {
+  position: absolute;
+  top: 15%;
+  left: 44.5%;
+  margin: 0%;
+  padding: 0 20px;
+  font-family: "Goodtimes";
+  color: #fff;
+  font-size: 1.5em;
+  text-shadow: 0 0 20px #eeaf9d;
+}
+
+.year:after {
+  content: attr(data-year);
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  padding: 0 20px;
+  z-index: -1;
+  color: #e15546;
+  filter: blur(15px);
+}
+
+.year:before {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background: #e15546;
+  z-index: -2;
+  opacity: 0.5;
+  filter: blur(40px);
+}
+
+.jan-text1 {
+  position: absolute;
+  top: 30%;
+  left: 10.7%;
+  margin: 0%;
+  padding: 0 20px;
+  font-family: "Goodtimes";
+  color: #fff;
+  font-size: 2.3em;
+  text-shadow: 0 0 20px #eeaf9d;
+}
+
+.jan-text1:after {
+  content: attr(data-jantext1);
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  padding: 0 20px;
+  z-index: -1;
+  color: #e15546;
+  filter: blur(15px);
+}
+
+.jan-text1:before {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background: #e15546;
+  z-index: -2;
+  opacity: 0.5;
+  filter: blur(40px);
+}
+
+.feb-text2 {
+  position: absolute;
+  top: 30%;
+  left: 36.5%;
+  margin: 0%;
+  padding: 0 20px;
+  font-family: "Goodtimes";
+  color: #fff;
+  font-size: 2.3em;
+  text-shadow: 0 0 20px #eeaf9d;
+}
+
+.feb-text2:after {
+  content: attr(data-febtext2);
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  padding: 0 20px;
+  z-index: -1;
+  color: #e15546;
+  filter: blur(15px);
+}
+
+.feb-text2:before {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background: #e15546;
+  z-index: -2;
+  opacity: 0.5;
+  filter: blur(40px);
+}
+
+.mar-text3 {
+  position: absolute;
+  top: 30%;
+  left: 66.2%;
+  margin: 0%;
+  padding: 0 20px;
+  font-family: "Goodtimes";
+  color: #fff;
+  font-size: 2.3em;
+  text-shadow: 0 0 20px #eeaf9d;
+}
+
+.mar-text3:after {
+  content: attr(data-martext3);
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  padding: 0 20px;
+  z-index: -1;
+  color: #e15546;
+  filter: blur(15px);
+}
+
+.mar-text3:before {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background: #e15546;
+  z-index: -2;
+  opacity: 0.5;
+  filter: blur(40px);
+}
+
+.apr-text4 {
+  position: absolute;
+  top: 110.1%;
+  left: 14.9%;
+  margin: 0%;
+  padding: 0 20px;
+  font-family: "Goodtimes";
+  color: #fff;
+  font-size: 2.3em;
+  text-shadow: 0 0 20px #eeaf9d;
+}
+
+.apr-text4:after {
+  content: attr(data-aprtext4);
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  padding: 0 20px;
+  z-index: -1;
+  color: #e15546;
+  filter: blur(15px);
+}
+
+.apr-text4:before {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background: #e15546;
+  z-index: -2;
+  opacity: 0.5;
+  filter: blur(40px);
+}
+
+.may-text5 {
+  position: absolute;
+  top: 110.1%;
+  left: 43%;
+  margin: 0%;
+  padding: 0 20px;
+  font-family: "Goodtimes";
+  color: #fff;
+  font-size: 2.3em;
+  text-shadow: 0 0 20px #eeaf9d;
+}
+
+.may-text5:after {
+  content: attr(data-maytext5);
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  padding: 0 20px;
+  z-index: -1;
+  color: #e15546;
+  filter: blur(15px);
+}
+
+.may-text5:before {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background: #e15546;
+  z-index: -2;
+  opacity: 0.5;
+  filter: blur(40px);
+}
+
+.june-text6 {
+  position: absolute;
+  top: 110.1%;
+  left: 68.5%;
+  margin: 0%;
+  padding: 0 20px;
+  font-family: "Goodtimes";
+  color: #fff;
+  font-size: 2.3em;
+  text-shadow: 0 0 20px #eeaf9d;
+}
+
+.june-text6:after {
+  content: attr(data-junetext6);
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  padding: 0 20px;
+  z-index: -1;
+  color: #e15546;
+  filter: blur(15px);
+}
+
+.june-text3:before {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background: #e15546;
+  z-index: -2;
+  opacity: 0.5;
+  filter: blur(40px);
+}
+
+.july-text7 {
+  position: absolute;
+  top: 190.1%;
+  left: 15.5%;
+  margin: 0%;
+  padding: 0 20px;
+  font-family: "Goodtimes";
+  color: #fff;
+  font-size: 2.3em;
+  text-shadow: 0 0 20px #eeaf9d;
+}
+
+.july-text7:after {
+  content: attr(data-julytext7);
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  padding: 0 20px;
+  z-index: -1;
+  color: #e15546;
+  filter: blur(15px);
+}
+
+.july-text7:before {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background: #e15546;
+  z-index: -2;
+  opacity: 0.5;
+  filter: blur(40px);
+}
+
+.aug-text8 {
+  position: absolute;
+  top: 190.1%;
+  left: 38.8%;
+  margin: 0%;
+  padding: 0 20px;
+  font-family: "Goodtimes";
+  color: #fff;
+  font-size: 2.3em;
+  text-shadow: 0 0 20px #eeaf9d;
+}
+
+.aug-text8:after {
+  content: attr(data-augtext8);
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  padding: 0 20px;
+  z-index: -1;
+  color: #e15546;
+  filter: blur(15px);
+}
+
+.aug-text8:before {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background: #e15546;
+  z-index: -2;
+  opacity: 0.5;
+  filter: blur(40px);
+}
+
+.sep-text9 {
+  position: absolute;
+  top: 190.1%;
+  left: 61.4%;
+  margin: 0%;
+  padding: 0 20px;
+  font-family: "Goodtimes";
+  color: #fff;
+  font-size: 2.3em;
+  text-shadow: 0 0 20px #eeaf9d;
+}
+
+.sep-text9:after {
+  content: attr(data-septext9);
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  padding: 0 20px;
+  z-index: -1;
+  color: #e15546;
+  filter: blur(15px);
+}
+
+.sep-text9:before {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background: #e15546;
+  z-index: -2;
+  opacity: 0.5;
+  filter: blur(40px);
+}
+
+.oct-text10 {
+  position: absolute;
+  top: 270.1%;
+  left: 10.5%;
+  margin: 0%;
+  padding: 0 20px;
+  font-family: "Goodtimes";
+  color: #fff;
+  font-size: 2.3em;
+  text-shadow: 0 0 20px #eeaf9d;
+}
+
+.oct-text10:after {
+  content: attr(data-octtext10);
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  padding: 0 20px;
+  z-index: -1;
+  color: #e15546;
+  filter: blur(15px);
+}
+
+.oct-text10:before {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background: #e15546;
+  z-index: -2;
+  opacity: 0.5;
+  filter: blur(40px);
+}
+
+.nov-text11 {
+  position: absolute;
+  top: 270.1%;
+  left: 35.6%;
+  margin: 0%;
+  padding: 0 20px;
+  font-family: "Goodtimes";
+  color: #fff;
+  font-size: 2.3em;
+  text-shadow: 0 0 20px #eeaf9d;
+}
+
+.nov-text11:after {
+  content: attr(data-novtext11);
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  padding: 0 20px;
+  z-index: -1;
+  color: #e15546;
+  filter: blur(15px);
+}
+
+.nov-text11:before {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background: #e15546;
+  z-index: -2;
+  opacity: 0.5;
+  filter: blur(40px);
+}
+
+.dec-text12 {
+  position: absolute;
+  top: 270.1%;
+  left: 62.4%;
+  margin: 0%;
+  padding: 0 20px;
+  font-family: "Goodtimes";
+  color: #fff;
+  font-size: 2.3em;
+  text-shadow: 0 0 20px #eeaf9d;
+}
+
+.dec-text12:after {
+  content: attr(data-dectext12);
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  padding: 0 20px;
+  z-index: -1;
+  color: #e15546;
+  filter: blur(15px);
+}
+
+.dec-text12:before {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background: #e15546;
+  z-index: -2;
+  opacity: 0.5;
+  filter: blur(40px);
+}
+
+.home-button {
+  position: absolute;
+  top: 12%;
+  left: 5%;
+  padding: 0%;
+  margin: 0%;
+  transform: translate(-50%, -50%);
+}
+
+.neon-text6 {
+  position: absolute;
+  top: 22%;
+  left: 5%;
+  transform: translate(-50%, -50%);
+  margin: 0%;
+  padding: 0 20px;
+  font-family: "ka1";
+  font-size: 1em;
+  color: #fff;
+  text-shadow: 0 0 20px #20e2e6;
+}
+
+.neon-text6:after {
+  content: attr(data-text6);
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  padding: 0 20px;
+  z-index: -1;
+  color: #023788;
+  filter: blur(15px);
+}
+
+.neon-text6:before {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background: #023788;
+  z-index: -2;
+  opacity: 0.5;
+  filter: blur(40px);
+}
+
+.jhday1 {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Goodtimes";
+  font-size: 1rem;
+  background-color: palevioletred;
+  border-radius: 50%;
+}
+.jhday1:hover {
+  background-color: rgba(0, 0, 0, 0.288);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.fhday2 {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Goodtimes";
+  font-size: 1rem;
+  background-color: palevioletred;
+  border-radius: 50%;
+}
+.fhday2:hover {
+  background-color: rgba(0, 0, 0, 0.288);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.ahday4 {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Goodtimes";
+  font-size: 1rem;
+  background-color: palevioletred;
+  border-radius: 50%;
+}
+.ahday4:hover {
+  background-color: rgba(0, 0, 0, 0.288);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.mhday5 {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Goodtimes";
+  font-size: 1rem;
+  background-color: palevioletred;
+  border-radius: 50%;
+}
+.mhday5:hover {
+  background-color: rgba(0, 0, 0, 0.288);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.jnhday6 {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Goodtimes";
+  font-size: 1rem;
+  background-color: palevioletred;
+  border-radius: 50%;
+}
+.jnhday6:hover {
+  background-color: rgba(0, 0, 0, 0.288);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.auhday8 {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Goodtimes";
+  font-size: 1rem;
+  background-color: palevioletred;
+  border-radius: 50%;
+}
+.auhday8:hover {
+  background-color: rgba(0, 0, 0, 0.288);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.nohday11 {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Goodtimes";
+  font-size: 1rem;
+  background-color: palevioletred;
+  border-radius: 50%;
+}
+.nohday11:hover {
+  background-color: rgba(0, 0, 0, 0.288);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dehday12 {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Goodtimes";
+  font-size: 1rem;
+  background-color: palevioletred;
+  border-radius: 50%;
+}
+.dehday12:hover {
+  background-color: rgba(0, 0, 0, 0.288);
+  border-radius: 50%;
+  cursor: pointer;
+}
